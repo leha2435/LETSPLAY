@@ -1,0 +1,1244 @@
+/* Fonts */
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/* Начало страницы */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 17.58px;
+  font-weight: 400;
+  color: #343434;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #fafbff;
+}
+
+.header-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-bottom: 20px;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 65px;
+  font-size: 15px;
+}
+
+.header-list-language {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item1 {
+  margin-left: 34px;
+}
+
+.header-item2 {
+  margin-left: 28px;
+}
+
+.header-item3 {
+  margin-left: 27px;
+}
+
+.header-item4 {
+  margin-left: 28px;
+}
+
+.header-item5 {
+  margin-left: 32px;
+  margin-right: 200px;
+}
+
+.header-item6 {
+  margin-left: 1px;
+}
+
+.header-item7 {
+  margin-right: 12px;
+  margin-top: 7px;
+}
+
+.header-link {
+  font-size: 15px;
+  line-height: 17.58px;
+  color: #343434;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* SECTIONS */
+
+.search-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #7bd3ea;
+  width: 100%;
+  height: 82px;
+}
+
+.search-section-tab {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+/* ITEMS */
+
+/* ITEM 1 PRODUCT CATALOG ITEM */
+.product-catalog-name {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22.27px;
+  width: 135px;
+  height: 22px;
+  margin-left: 3px;
+  margin-top: 17px;
+}
+
+.section {
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+  height: 57px;
+  background-color: #fafbff;
+  border-radius: 30px;
+  position: relative;
+  text-decoration: none;
+  color: #343434;
+}
+
+.img-line {
+  height: 24px;
+  width: 24px;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+/* ITEM 2 SEARCH ITEM */
+
+.search-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 57px;
+  background-color: #fafbff;
+  border-radius: 30px;
+  margin-left: 60px;
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 57px;
+}
+
+.search-text {
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 22.27px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.menu-search {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.27);
+  display: flex;
+  flex-wrap: wrap;
+  cursor: text;
+}
+
+.lupa-img {
+  margin-left: 427px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+/* ITEM 3 HEART ITEM */
+
+.heart-item {
+  margin-left: 33px;
+  width: 55px;
+  height: 55px;
+  background-color: #fafbff;
+  border-radius: 50%;
+}
+
+.heart-svg {
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 13px;
+}
+
+.basket-item {
+  width: 55px;
+  height: 55px;
+  background-color: #fafbff;
+  border-radius: 50%;
+  margin-left: 47px;
+}
+
+.shopping-cart {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+/* CATALOG SECTION */
+
+.catalog-section {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+
+/* CATEGORY SECTION */
+
+.category-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 284px;
+  height: 455px;
+  background-color: #fafbff;
+}
+
+.catalog-text {
+  width: 284px;
+  height: 455px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  background-color: #fafbff;
+  /* align-items: center; */
+}
+
+.text-link {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #343434;
+}
+
+.text1 {
+  margin-top: 0;
+}
+
+.text2 {
+  margin-top: 13px;
+}
+
+.text3 {
+  margin-top: 13px;
+}
+
+.text4 {
+  margin-top: 13px;
+}
+
+.text5 {
+  margin-top: 13px;
+}
+
+.text6 {
+  margin-top: 13px;
+}
+
+.text7 {
+  margin-top: 13px;
+}
+
+.text8 {
+  margin-top: 13px;
+}
+
+.text9 {
+  margin-top: 13px;
+}
+
+.text10 {
+  margin-top: 13px;
+}
+
+.text11 {
+  margin-top: 13px;
+}
+
+.text12 {
+  margin-top: 13px;
+}
+
+.text13 {
+  margin-top: 13px;
+}
+
+.arrow1 {
+  margin-left: 123px;
+}
+
+.arrow2 {
+  margin-left: 100px;
+}
+
+.arrow3 {
+  margin-left: 180px;
+}
+
+.arrow4 {
+  margin-left: 144px;
+}
+
+.arrow5 {
+  margin-left: 42px;
+}
+
+.arrow6 {
+  margin-left: 71px;
+}
+
+.arrow7 {
+  margin-left: 30px;
+}
+
+.arrow8 {
+  margin-left: 142px;
+}
+
+.arrow9 {
+  margin-left: 18px;
+}
+
+.arrow10 {
+  margin-left: 105px;
+}
+
+.arrow11 {
+  margin-left: 42px;
+}
+
+.arrow12 {
+  margin-left: 33px;
+}
+
+.arrow13 {
+  margin-left: 153px;
+}
+
+/* IMAGE SECTION */
+
+.imge-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 881px;
+  height: 455px;
+  margin-bottom: 12px;
+}
+
+/* BIG IMAGE SECTION */
+
+.big-image-section {
+  width: 580px;
+  height: 455px;
+  margin-top: 15px;
+}
+
+/* SMALL IMAGE SECTION */
+
+.small-image-section {
+  width: 280px;
+  height: 455px;
+  margin-left: 21px;
+  margin-top: 15px;
+}
+
+.image-box2 {
+  margin-top: 20px;
+}
+
+.image1 {
+  width: 280px;
+  height: 216px;
+}
+
+.image2 {
+  width: 280px;
+  height: 219px;
+  background-color: #f6d6d6;
+  margin-top: 20px;
+}
+
+.image-figure {
+  width: 280px;
+  height: 219px;
+}
+
+.figure1 {
+  width: 57px;
+  height: 57px;
+  background-color: #a1eebd;
+  border-radius: 50%;
+  margin-left: 217px;
+}
+
+/* RECOMENDATION SECTION */
+
+.recomendation-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80px;
+  background-color: #fafbff;
+  margin-top: 60px;
+}
+
+.container10 {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fafbff;
+}
+
+.text-decoration {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #343434;
+}
+
+.text-link-dec1 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.3px;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+.text-link-dec2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.3px;
+  margin-left: 8px;
+  margin-top: 18px;
+}
+
+.text-link-dec3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.3px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.image-like {
+  margin-top: 3.7px;
+  margin-left: 2.29px;
+}
+
+.image-nice {
+  margin-top: 2px;
+  margin-left: -40px;
+}
+
+.image-car {
+  margin-top: 5px;
+  margin-left: -12px;
+}
+
+/* NEW PRODUCT SECTION */
+
+.product-section {
+  width: 1168px;
+  height: 409px;
+  padding-top: 76px;
+  width: 100%;
+}
+
+/* 1 TITLE ZIRO4KA */
+
+.big-title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.big-title2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-pro-text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46.88px;
+  color: #343434;
+  margin-left: 7.75px;
+}
+
+/* 2 PERELIK PRODUCT */
+
+.perelik-product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: 218px;
+  margin-top: 57px;
+}
+
+.lol-surprise {
+  position: relative;
+}
+
+.new-box {
+  position: absolute;
+  top: 0;
+  width: 59px;
+  height: 35px;
+  border-radius: 150px;
+  background-color: #7bd3ea;
+}
+
+.new-box-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #ffffff;
+  margin-left: 9px;
+  margin-top: 6px;
+}
+
+.ul-perelik {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.barbie-sign {
+  margin-left: 37px;
+  position: relative;
+}
+
+.wooder-car {
+  margin-left: 38px;
+  position: relative;
+}
+
+.transformers {
+  margin-left: 40px;
+  position: relative;
+}
+
+.right-arrow {
+  margin-left: 38.5px;
+  position: relative;
+  margin-top: 92px;
+}
+
+/* 3 TEXT PERELIK */
+
+.perelik-text {
+  margin-top: 9px;
+  width: 1170px;
+}
+
+.info-text-p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.info-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lol-text {
+  width: 243px;
+  height: 44px;
+}
+
+.bb-text {
+  width: 243px;
+  height: 36px;
+  margin-left: 38px;
+}
+
+.wood-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 39px;
+}
+
+.trans-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 38px;
+}
+
+/* 4 PRICE PERELIK */
+
+.perelik-cen {
+  width: 1170px;
+}
+
+.info-price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jopka-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.jopka1 {
+  width: 55px;
+  height: 21px;
+}
+
+.jopka2 {
+  width: 65px;
+  height: 21px;
+  margin-left: 226px;
+}
+
+.jopka3 {
+  width: 45px;
+  height: 21px;
+  margin-left: 217px;
+}
+
+.jopka4 {
+  width: 55px;
+  height: 21px;
+  margin-left: 237px;
+}
+
+/* BRANDS SECTION */
+
+.brands-section {
+  width: 1181px;
+  height: 163px;
+  margin-top: 120px;
+  width: 100%;
+}
+
+/* 1 hero title */
+
+.hero-brands {
+  display: flex;
+  flex-wrap: wrap;
+  width: 101px;
+  height: 38px;
+}
+
+.per-brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat-brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-brands {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* 2 line */
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1181px;
+  height: 0px;
+  margin-top: 14px;
+}
+
+/* 3 brands */
+
+.brands {
+  width: 1181px;
+  height: 97px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.per-brands {
+  width: 1181px;
+  height: 97px;
+}
+
+.hasbro {
+  margin-top: 15px;
+}
+
+.paydon {
+  margin-left: 62px;
+  margin-top: 21px;
+}
+
+.lego {
+  margin-left: 62px;
+  margin-top: 14px;
+}
+
+.hotwweels {
+  margin-left: 62px;
+  margin-top: 21px;
+}
+
+.mattel {
+  margin-left: 62px;
+  margin-top: 19px;
+}
+
+.barbie {
+  margin-left: 62px;
+  margin-top: 19px;
+}
+
+.monster {
+  margin-left: 62px;
+  margin-top: 14px;
+}
+
+/* SALES SECTION */
+
+.sales-section {
+  width: 1167px;
+  height: 409px;
+  margin-top: 99px;
+  width: 100%;
+}
+
+.new-pro-title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-pro-title2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-pro-text1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 17.5px;
+}
+
+/* top sales */
+
+.perelik-product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: 218px;
+  margin-top: 57px;
+}
+
+.homyak {
+  position: relative;
+}
+
+.new-box1 {
+  position: absolute;
+  top: 0;
+  width: 59px;
+  height: 35px;
+  border-radius: 150px;
+  background-color: #f3f56b;
+}
+
+.new-box-text1 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: white;
+  margin-left: 9px;
+  margin-top: 6px;
+}
+
+.ul-perelik {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.zver-sign {
+  margin-left: 37px;
+  position: relative;
+}
+
+.fredi-fasbert {
+  margin-left: 38px;
+  position: relative;
+}
+
+.girl {
+  margin-left: 40px;
+  position: relative;
+}
+
+.right-arrow {
+  margin-left: 38.5px;
+  position: relative;
+  margin-top: 92px;
+}
+
+/* TEXT PERELIK */
+
+.perelik-text {
+  margin-top: 9px;
+  width: 1170px;
+}
+
+.info-text-p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.info-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homyak-text {
+  width: 243px;
+  height: 44px;
+}
+
+.zver-text {
+  width: 243px;
+  height: 36px;
+  margin-left: 38px;
+}
+
+.fredi-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 39px;
+}
+
+.girl-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 38px;
+}
+
+/* PRICE PERELIK2 */
+
+.perelik-cen {
+  width: 1170px;
+}
+
+.info-price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jopka-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.jopka5 {
+  width: 55px;
+  height: 21px;
+}
+
+.jopka6 {
+  width: 65px;
+  height: 21px;
+  margin-left: 226px;
+}
+
+.jopka7 {
+  width: 45px;
+  height: 21px;
+  margin-left: 217px;
+}
+
+.jopka8 {
+  width: 55px;
+  height: 21px;
+  margin-left: 237px;
+}
+
+/* STOCKS SECTION */
+
+.stocks-section {
+  width: 1167px;
+  height: 402px;
+  margin-top: 100.8px;
+  width: 100%;
+}
+
+/* TITLE  */
+
+.new-pro-title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-pro-title2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-pro-text3 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 20.75px;
+}
+
+/* top sales */
+
+.perelik-product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  height: 218px;
+  margin-top: 57px;
+}
+
+.pony {
+  position: relative;
+}
+
+.new-box2 {
+  position: absolute;
+  top: 0;
+  width: 59px;
+  height: 35px;
+  border-radius: 150px;
+  background-color: #ff3737;
+}
+
+.new-box-text2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: white;
+  margin-left: 9px;
+  margin-top: 6px;
+}
+
+.ul-perelik {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rebbit-sign {
+  margin-left: 37px;
+  position: relative;
+}
+
+.dragon {
+  margin-left: 38px;
+  position: relative;
+}
+
+.zayka {
+  margin-left: 40px;
+  position: relative;
+}
+
+.right-arrow {
+  margin-left: 38.5px;
+  position: relative;
+  margin-top: 92px;
+}
+
+/* TEXT PERELIK */
+
+.perelik-text {
+  margin-top: 9px;
+  width: 1170px;
+}
+
+.info-text-p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.info-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pony-text {
+  width: 243px;
+  height: 44px;
+}
+
+.rabbit-text {
+  width: 243px;
+  height: 36px;
+  margin-left: 38px;
+}
+
+.dragon-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 39px;
+}
+
+.zayka-text {
+  width: 243px;
+  height: 44px;
+  margin-left: 38px;
+}
+
+/* PRICE PERELIK2 */
+
+.perelik-cen {
+  width: 1170px;
+}
+
+.info-price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jopka-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.jopka9 {
+  width: 55px;
+  height: 21px;
+}
+
+.jopka10 {
+  width: 65px;
+  height: 21px;
+  margin-left: 226px;
+}
+
+.jopka11 {
+  width: 45px;
+  height: 21px;
+  margin-left: 217px;
+}
+
+.jopka12 {
+  width: 55px;
+  height: 21px;
+  margin-left: 237px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 1181px;
+  height: 204px;
+  width: 100%;
+}
+
+.section-tab {
+  width: 1181px;
+  height: 204px;
+  margin-top: 93px;
+}
+
+.head-text-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1181px;
+  height: 20px;
+  margin-top: 33px;
+}
+
+.tab-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 179px;
+  height: 171px;
+}
+
+.buyer {
+  width: 219px;
+  height: 146px;
+  margin-left: 101px;
+}
+
+.help {
+  width: 236px;
+  height: 146px;
+  margin-left: 80px;
+}
+
+.text-foter {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #002583;
+}
+
+.text-foter2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.footer-text-head {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.big-text-footer2 {
+  margin-left: 160px;
+}
+
+.big-text-footer3 {
+  margin-left: 215px;
+}
+
+.link-1 {
+  text-decoration: none;
+}
